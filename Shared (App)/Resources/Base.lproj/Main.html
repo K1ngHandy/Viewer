@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <link rel="stylesheet" href="../Style.css">
+    <script src="../Script.js" defer></script>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="hero">
+            <img src="../Icon.png" class="app-icon" alt="Viewer Icon">
+            <h1>Viewer</h1>
+            <p class="tagline">A simple companion app for your Safari extension.</p>
+        </header>
+
+        <section class="platform-copy">
+            <p class="platform-ios">You can turn on Viewer’s Safari extension in Settings.</p>
+            <p class="platform-mac state-unknown">You can turn on Viewer’s extension in Safari Extensions preferences.</p>
+            <p class="platform-mac state-on">Viewer’s extension is currently on. You can turn it off in Safari Extensions preferences.</p>
+            <p class="platform-mac state-off">Viewer’s extension is currently off. You can turn it on in Safari Extensions preferences.</p>
+            <button class="platform-mac open-preferences">Quit and Open Safari Extensions Preferences…</button>
+        </section>
+
+        <section class="features">
+            <h2>What Viewer does</h2>
+            <ul>
+                <li>Installs a Safari web extension powered by modern WebExtensions APIs.</li>
+                <li>Keeps the native app and extension in sync across iOS and macOS.</li>
+                <li>Gives you a quick way to open Safari’s extension settings when needed.</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
